@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CS50 Chatbot
 
-## Getting Started
+#### Video Demo: https://youtu.be/g9ILm6lIHkw
 
-First, run the development server:
+#### Description:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Welcome to GPT-Cow-Duck-Chat, an innovative chat application built on Next.js, NextAuth, react-hook-form, and powered by the GPT-3.5-Turbo OpenAI API. This project takes the capabilities of ChatGPT to the next level by incorporating fun and quirky features, allowing the AI to mimic a cow and duck during interactions.
+
+#### Tech Stack:
+
+- ChatGPT Core: Utilizing the powerful GPT-3.5-Turbo OpenAI API, this project provides a state-of-the-art conversational experience.
+
+- Next.js Framework: the chatbot is built on the Next.js framework, providing a fast and efficient user experience with server-side rendering and a great developer experience.
+
+- NextAuth for Authentication: Secure your chat application with NextAuth, enabling user authentication and authorization seamlessly.
+
+- react-hook-form for Form Management: Effortlessly manage and validate forms with react-hook-form, ensuring a smooth user input experience.
+
+#### Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository
+
+```
+git clone [url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Configure environment variables in .env.local file
 
-## Learn More
+4. Run development server
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your browser and navigate to http://localhost:3000 to interact with the chatbot
